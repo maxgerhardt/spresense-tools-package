@@ -16,6 +16,7 @@ if __name__ == "__main__":
     if as_int != SPK_MAGIC_VALUE:
       print("%s: cannot get SPK information from %s: Invalid SPK file" % (sys.argv[0], sys.argv[1]))
       print("Got magic %s expected %s" % (hex(as_int), hex(SPK_MAGIC_VALUE)))
+      exit(-1)
     fp.seek(20, os.SEEK_SET)
     stack_val_bytes = fp.read(4)
     stack = int.from_bytes(stack_val_bytes, byteorder="little")
