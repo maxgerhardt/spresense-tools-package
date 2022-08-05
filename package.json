@@ -1,0 +1,17 @@
+{
+  "name": "tool-spresense",
+  "version": "2.6.0",
+  "description": " Spresense Tools",
+  "keywords": [
+    "tool",
+    "arduino",
+    "sony",
+    "spresense"
+  ],
+  "homepage": "https://github.com/sonydevworld/spresense",
+  "license": "BSD-3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonydevworld/spresense"
+  }
+}
